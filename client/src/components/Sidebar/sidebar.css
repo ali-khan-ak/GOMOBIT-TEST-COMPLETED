@@ -1,0 +1,54 @@
+body{
+    font-family: "Lato", Arial, sans-serif;
+}
+.navigation-bar{
+    background-color: #282c34;
+    position: fixed;
+    min-width: 100%;
+    min-height: 5%;
+    text-align: center;
+}.navigation-button{
+    text-align: start;
+}.canvas{
+    /* background-color: #1a1e34; */
+    background-image: url("../../Assets/Images/sidebar-4.jpg");
+    color: white;
+}.overlay {
+    background: rgb(0 0 0 / 68%);
+    overflow: hidden;
+}
+.link-list{
+    background-color: #282c3466;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    height: 50%;
+    min-width: 84%;
+    border-radius: 7%;
+    justify-content: space-evenly;
+    font-size: 26px;
+}.nav-link{
+    display: flex !important;
+    padding: 8px 160px 8px 40px !important;
+    color: white !important;
+}.nav-link:hover{
+    background-color: #efefef46;
+    color: #fff5f5;
+    border-radius: 38px;
+    cursor: pointer;
+}.nav-link:focus{
+    background-color: #efefef46;
+    color: #fff5f5;
+    border-radius: 38px;
+    cursor: pointer;
+    padding: 8px 80px 6px 80px;
+}.cardbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}.profileCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

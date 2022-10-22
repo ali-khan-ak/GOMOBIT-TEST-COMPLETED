@@ -1,0 +1,42 @@
+.container-home{
+    font-family: "Lato", Arial, sans-serif;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: fixed;
+    background-image: url("../../Assets/Images/computernew.jpg");
+}.search-input{
+    background-color: #ffffff !important;
+    border: 1px solid #000000 !important;
+    border-radius: 11px !important;
+    transition: -1.3s !important;
+    padding-left: 38px !important;
+    padding-right: 92px !important;
+    height: 59px;
+    font-family: "Lato", Arial, sans-serif;
+}.home-container{
+    display: flex;
+    justify-content: center;
+}.main-card-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.table-head{
+    font-family: Lato-Bold;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 1.4;
+    text-transform: uppercase;
+    background-color: #393939;
+}.table-row{
+    
+    background-color: #ffffff;
+    line-height: 1.4;
+    font-family: Lato-Regular;
+    font-size: 18px;
+}.table-design{
+    padding: 20px;
+    font-family: Lato-Regular;
+}
